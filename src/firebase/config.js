@@ -3,24 +3,24 @@ import 'firebase/firestore'
 import 'firebase/auth'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDG7zVK7n7DcFeTaN_D7r8Y0jS_I-RLj9A",
 
-  authDomain: "project-management-site-f8944.firebaseapp.com",
-
-  projectId: "project-management-site-f8944",
-
-  storageBucket: "project-management-site-f8944.appspot.com",
-
-  messagingSenderId: "798884782614",
-
-  appId: "1:798884782614:web:f9c37aaca8c76f4b1c0b37",
-
-  measurementId: "G-5W67H21SSB"
-
-};
+    apiKey: "AIzaSyBG1739j_ql-_ij8724NtCnZ2PO51ToxKM",
   
+    authDomain: "project-manager-site-22b63.firebaseapp.com",
+  
+    projectId: "project-manager-site-22b63",
+  
+    storageBucket: "project-manager-site-22b63.appspot.com",
+  
+    messagingSenderId: "919535044710",
+  
+    appId: "1:919535044710:web:4fa76ac87d5ca4a92285a7",
+  
+    measurementId: "G-M7V6G9E8T9"
+  
+  };
 
-// init firebase
+  // init firebase
 firebase.initializeApp(firebaseConfig)
 
 // init services
