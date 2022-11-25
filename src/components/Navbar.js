@@ -20,8 +20,8 @@ const Navbar = () => {
           <span>Project Management Site</span>
         </li>
 
-        <li><NavLink to ='/login'>Login</NavLink></li>
-        <li><NavLink to ='/signup'>Signup</NavLink></li>
+        <li><NavLink to ='/login' style={({ isActive }) => isActive ? activeStyle : undefined} >Login</NavLink></li>
+        <li><NavLink to ='/signup' style={({ isActive }) => isActive ? activeStyle : undefined} >Signup</NavLink></li>
         <li>
           {!isPending && <button className='btn' onClick={logout}>Logout</button>}
           {isPending && <button className='btn' disabled>Logging out</button>}
